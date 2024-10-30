@@ -1,0 +1,219 @@
+#icsComparisonEditTabs .icsOptTxtCheck {
+	width: calc(100% - 25px);
+}
+#icsComparisonEditTabs a.nav-tab {
+	cursor: pointer;
+}
+.icsTabContent section {
+	padding-bottom: 20px;
+}
+.supsystic-plugin fieldset, .icsPopupOptRow {
+	margin-bottom: 10px;
+}
+#supsystic-breadcrumbs .button,
+#supsystic-breadcrumbs *:not(.fa) {
+	height: 30px; 
+	line-height: 26px;
+}
+#supsystic-breadcrumbs.supsystic-sticky {
+	background-color: #f1f1f1;
+	width: 100%;
+}
+.wp-picker-container {
+	min-width: 120px;
+	white-space: nowrap;
+}
+.icsIcon li{
+	display: inline;
+	cursor: pointer;
+}
+.icsIcon li img{
+	width: 35px;
+	height: 35px;
+	padding: 2px;
+}
+.icsIcon li.active img{
+	border: 1px solid black;
+}
+.icsAdminTitle{
+	display: block;
+}
+.icsAdminTitlePro{
+	font-size: 10px;
+}
+.icsProTitleWrapp{
+	display: inline-block;
+	/*width: 100px;*/
+}
+.icsFreeTitleWrapp{
+	display: inline-block;
+	/*width: 100px;*/
+}
+.icsTableSettingsRightPart .icsProTitleWrapp{
+	display: inline-block;
+	/*width: 130px;*/
+}
+.icsTableSettingsRightPart .icsFreeTitleWrapp{
+	display: inline-block;
+	/*width: 130px;*/
+}
+.form-table .icsProTitleWrapp{
+	display: inline-block;
+	/*width: 130px;*/
+}
+.form-table .icsFreeTitleWrapp{
+	display: inline-block;
+	/*width: 130px;*/
+}
+.icsPro select, .icsPro input, .icsPro label{
+	vertical-align: top;
+}
+.icsSettings{
+	margin: 5px;
+}
+.icsDisabled input,
+.icsDisabled select,
+.icsDisabled label,
+.icsDisabled .icsProTitleWrapp,
+.icsDisabled .wp-picker-container,
+.icsDisabled .wp-color-result,
+.icsDisabled .iCheck-helper{
+	background: rgba(255,255,255,.5)!important;
+	border-color: rgba(222,222,222,.75)!important;
+	color: rgba(51,51,51,.5)!important;
+	cursor: not-allowed;
+}
+.icsDisabled .wp-color-result:after{
+	color: rgba(51,51,51,.5)!important;
+}
+#icsCreateComparisonForm label h3{
+	margin: 0!important;
+	margin-right: 10px!important;
+}
+.icsSwapImg{
+	max-width: 100px;
+	cursor: pointer;
+}
+.wp-picker-container{display: inline;}
+
+.icsMarkerWrappEmpty{display: none;}
+.add-single-img{
+	/*max-height: 150px;*/
+	/*min-height: 150px;*/
+}
+.icsImg .button{
+	display: block;
+	width: 100%;
+}
+.icsLeftImgBorder{
+	border-left: 1px solid #6d6d71;
+}
+.icsShortcodeWrapp{
+	margin-top: 10px;
+}
+.icsShortcode{
+	padding: 10px;
+	font-weight: 800;
+}
+.icsShortcode input{
+	padding: 10px;
+	font-weight: normal;
+	cursor: pointer;
+}
+#additionalPrewiew{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.icsSettings{
+	font-size: 12px;
+	font-weight: normal!important;
+}
+.icsSettings span{
+	font-size: 12px;
+	font-weight: normal!important;
+}
+.icsSettings span.icsAdminTitlePro{
+	font-size: 9px;
+	font-weight: normal!important;
+}
+.icsSettings input, .icsSettings select, .icsSettings label {
+	font-size: 12px;
+	font-weight: normal!important;
+}
+#prewiew .ics-slider-wrapper{
+	max-width:700px;
+}
+#icsComparisonEditForm img.add-single-img{
+	width: auto;
+	height: 175px;
+}
+#icsComparisonEditForm .icsImg{
+	overflow-x: hidden;
+}
+#icsFieldIconsShell li a{
+	color: black;
+}
+#icsFieldIconsShell li a:hover, #icsFieldIconsShell li a.active {
+	color: #4ae8ea;
+}
+.ui-dialog { z-index: 99999 !important ;}
+.icsImg{
+	margin: 0 auto;
+	text-align: center;
+}
+#icsComparisonEditForm .icsImg .button:active{
+	-webkit-transform: none!important;
+	transform: none!important;
+}
+.form-table th {
+	vertical-align: middle;
+}
+.supsystic-plugin .form-table th {
+	font-size: 12px;
+}
+.icsPointsWrapper input{
+	max-width: 92px;
+}
+.icsSettingsCol button{
+	font-size:13px!important;
+}
+.icsSettingsCol .wp-color-result{
+	max-width: 75px;
+}
+.icsSettingsCol .wp-color-result-text{
+	overflow-x: hidden;
+}
+.icsSettingsCol select{
+	max-width: 75px;
+	font-size: 11px;
+}
+.icsSettingsCol label{
+	font-weight: normal;
+}
+.icsHidden{
+	display: none;
+}
+.iris-picker{
+	z-index: 2;
+}
+.wp-picker-holder{
+	position: absolute;
+	left: -20px;
+}
+.wp-picker-default{
+	display: none!important;
+}
+#icsComparisonEditForm .wp-picker-container a{
+	overflow-x: hidden;
+}
+.icsPreviewTitle{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#icsComparisonTbl .button-edit{
+	margin-right: 5px;
+}

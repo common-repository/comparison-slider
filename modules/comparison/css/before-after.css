@@ -1,0 +1,101 @@
+.ba-slider {
+    position: relative;
+    overflow: hidden;
+}
+.ba-slider img {
+    width: 100%;
+    display:block;
+    max-width:none;
+}
+.ba-slider .resize {
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 5001;
+}
+.ba-slider .resize-v {
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+    z-index: 5001;
+}
+.ba-slider .handle {
+    position: absolute;
+	top: 50%;
+    background: #ffffff;
+    z-index: 5001;
+    left: 0;
+    right: 0;
+    cursor: n-resize;
+    height: 2px;
+}
+.ba-slider .handle-v {
+    position:absolute;
+    left:50%;
+    top:0;
+    bottom:0;
+    width:2px;
+    margin-left:-2px;
+    background: #ffffff;
+    cursor: ew-resize;
+    z-index: 5001;
+}
+
+.icsMarker{
+    border:2px solid orange;
+    background-color:gray;
+    border-radius:10px;
+    text-align:center;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: red;
+    z-index: 6000;
+}
+.icsMarkerText{
+    position: absolute;
+    z-index: 6000;
+    color: white;
+    font-size: 14px;
+}
+.icsHidden{
+    display: none;
+}
+.icsHidden2{
+    display: none;
+}
+#additionalPrewiew .ics-slider-wrapper{
+	width: 100%!important;
+}
+.icsMarkerText{
+    margin-left: 20px;
+	margin-top: -5px;
+}
+
+/*
+.icsMarkerText:after {
+    content: "\f00d";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #000;
+    font-size: 10px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: -3px;
+    cursor: pointer;
+}
+.icsMarkerText{
+    margin-top: -15px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 7px;
+}
+*/
